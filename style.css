@@ -37,8 +37,8 @@ nav > a{
     
 }
 header{
-    min-width: 400px;
     max-width: 1000px;
+    min-width: 480px;
 }
 main{
     background-color: var(--cor01);
@@ -89,6 +89,8 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+    max-width: 1000px;
+    min-width: 480px;
 }
 footer > nav{
     text-decoration: none;
