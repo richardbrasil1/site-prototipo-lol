@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
+
 :root{
     --cor01: #26C8CA;
     --cor02: #0b93b5;
@@ -16,7 +17,7 @@ body{
     background-image: linear-gradient(to bottom, var(--cor02),var(--cor01));
     min-width: 400px;
     max-width: 1000px;
-    margin: auto;
+    margin: auto;    
 }
 nav{
     background-color: black;
@@ -84,7 +85,7 @@ div.video>iframe {
 footer{
     margin-top: 0px;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 5px;
     background-color: black;
     color: white;
     text-align: center;
@@ -92,4 +93,6 @@ footer{
 footer > nav{
     text-decoration: none;
     margin: 0px;
+    padding-bottom: 5px;
+
 }
